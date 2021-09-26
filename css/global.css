@@ -1,0 +1,118 @@
+/* text */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.50rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+    background-color: #ecc987;
+    opacity: 0.3;
+}
+
+.bg-light-blue {
+    background-color: #336ea2;
+}
+
+.bg-white{
+    color:white;
+}
+
+.bg-red{
+    color:#ac0909;
+}
+/* TEXT DECORATİON: NONE*/
+
+/* .text-decoration-none{
+    text-decoration: none;
+} */
+
+
+/* List Style type */
+
+.list-style-type-none {
+    list-style-type: none;
+}
+
+/* Display flex */
+
+.display-flax {
+    display: flex;
+}
+
+
+/* Paddings */
+
+.padding-sosmall{
+    padding:0.5rem;
+}
+.padding-small {
+    padding: 1.25rem;
+}
+.padding-medium {
+    padding: 1.5rem;
+}
+.padding-big {
+    padding: 1.75rem;
+}
+
+.padding-top-left{
+    padding: 1.5rem 0.75rem 0 0.75rem;
+}
+.padding8px{
+    padding: 8px;
+}
+
+.join-paddings{
+    background-color: #ac0909;
+    padding:0.85rem 1.5rem 0.5rem 1.5rem;
+    border: 1px solid #ac0909;
+    border-radius: 0.25rem;
+}
+
+
+/* FONT-SİZE */
+.font-size-small {
+    font-size: 1.25rem;
+}
+
+.font-size-medium {
+    font-size: 1.5rem;
+}
+
+.font-size-big {
+    font-size: 1.75rem;
+}
+.font-size-bigest{
+    font-size:2.25rem;
+}
+
+
+
+
+
+
+/* .header-color {
+
+} */
+
+/* Background */
+
+/* border */
+
+.for-border{
+    border:3px solid red;
+}

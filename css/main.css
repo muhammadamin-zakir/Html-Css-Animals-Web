@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Newsreader', serif;
+}
+
+.backgroundturtleimage {
+    background: url(/İmages/turtle.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    margin-top: -100px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#navbar ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+}
+
+#solnav {
+    display: flex;
+    align-items: center;
+}
+
+#solnav ul {
+    list-style-type: none;
+}
+
+.solkisim1 {
+    padding-left: 1rem;
+}
+
+.solkisim1 i {
+    color: #ac0909;
+}
+
+.solkisim1 i:hover {
+    color: #990a0a;
+}
+
+.solkisim2 ul li a h1:hover {
+    color: #990a0a;
+}
+
+
+#sagnav {
+    display: flex;
+    align-items: center;
+}
+
+#sagnav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.sagkisim1 ul li {
+    padding: 0.75rem;
+}
+
+
+#sagnav .sagkisim1 ul li a:hover {
+    color: #990a0a;
+}
+
+#sagnav .sagkisim2 ul .sagicon1:hover {
+    color: #990a0a;
+}
+
+#sagnav .sagkisim2 ul .sagicon2:hover {
+    color: white;
+    background-color: #990a0a;
+}
+
+.sagkisim2 ul li {
+    padding: 0.5rem;
+}
+
+/* Search box  */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.under-tab {
+    height: 60px;
+}
+
+.under-tab ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.under-tab ul li {
+    padding: 1.5rem 2rem;
+}
+
+.under-tab ul li a {
+    padding: 10px;
+}
+
+.under-tab ul li a:hover {
+    color: #990a0a;
+}
+
+
+
+
+.resimler-baslik {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.resimler-baslik-sol {
+    padding: 0.5rem;
+}
+
+.resimler-baslik-sag {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.resimler-baslik-sag h3,
+i {
+    padding: 0.5rem;
+}
+
+
+/* #section-resim{
+    display: flex;
+    width: 1800px;
+    margin: 20px auto;
+    justify-content: space-between;
+} */
+
+.section-resim-1 {
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.buyukardes {
+    position: relative;
+    -webkit-transition: all .3s ease-in;
+    transition: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.buyukardes:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+
+.article-name {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0 0;
+    font-weight: 100;
+    letter-spacing: 8px;
+    color: #5a5959;
+}
+
+.images-name {
+    font-style: initial;
+    letter-spacing: 2px;
+}
